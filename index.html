@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Za kompatibilnost s Internet Explorerom -->
+    <meta name="description" content="Igra pamcenja - Web aplikacija za poboljšanje memorije i koncentracije.">
+    <meta name="keywords" content="Memory, igra pamcenja, edukativne igre, igre memorije, web igra">
+    <meta name="author" content="Matija Sović">
+    <meta name="robots" content="index, follow"> <!-- Omogućuje indeksiranje i praćenje stranice od strane pretraživača -->
+    <meta property="og:title" content="Igra pamcenja">
+    <meta property="og:description" content="Interaktivna web aplikacija koja korisnicima omogućuje da vježbaju svoje sposobnosti pamćenja kroz igru.">
+    <title>Igra pamćenja</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="reset-button">Resetiraj Kartice</button>
+    <section class="memory-game">
+        <div class="memory-card" data-framework="b">
+            <img src="images/lopta.png" alt="Image 2" class="front-face">
+            <img src="images/cover.png" alt="Cover" class="back-face">
+        </div>
+        <div class="memory-card" data-framework="c">
+            <img src="images/lubenica.png" alt="Image 3" class="front-face">
+            <img src="images/cover.png" alt="Cover" class="back-face">
+        </div>
+        <div class="memory-card" data-framework="b">
+            <img src="images/lopta.png" alt="Image 2" class="front-face">
+            <img src="images/cover.png" alt="Cover" class="back-face">
+        </div>
+        <div class="memory-card" data-framework="a">
+            <img src="images/kamion.png" alt="Image 1" class="front-face">
+            <img src="images/cover.png" alt="Cover" class="back-face">
+        </div>
+        <div class="memory-card" data-framework="e">
+            <img src="images/zarulje.png" alt="Image 5" class="front-face">
+            <img src="images/cover.png" alt="Cover" class="back-face">
+        </div>
+        <div class="memory-card" data-framework="f">
+            <img src="images/Zemlja.png" alt="Image 6" class="front-face">
+            <img src="images/cover.png" alt="Cover" class="back-face">
+        </div>
+        <div class="memory-card" data-framework="d">
+            <img src="images/pas.png" alt="Image 4" class="front-face">
+            <img src="images/cover.png" alt="Cover" class="back-face">
+        </div>
+        <div class="memory-card" data-framework="c">
+            <img src="images/lubenica.png" alt="Image 3" class="front-face">
+            <img src="images/cover.png" alt="Cover" class="back-face">
+        </div>
+        <div class="memory-card" data-framework="d">
+            <img src="images/pas.png" alt="Image 4" class="front-face">
+            <img src="images/cover.png" alt="Cover" class="back-face">
+        </div>
+        <div class="memory-card" data-framework="a">
+            <img src="images/kamion.png" alt="Image 1" class="front-face">
+            <img src="images/cover.png" alt="Cover" class="back-face">
+        </div>        
+        <div class="memory-card" data-framework="e">
+            <img src="images/zarulje.png" alt="Image 5" class="front-face">
+            <img src="images/cover.png" alt="Cover" class="back-face">
+        </div>
+        <div class="memory-card" data-framework="f">
+            <img src="images/Zemlja.png" alt="Image 6" class="front-face">
+            <img src="images/cover.png" alt="Cover" class="back-face">
+        </div>  
+    </section>
+    <div id="win-message" class="hidden">Čestitam! Sve kartice su uspješno pronađene.</div>
+    <footer class="footer">
+        <p>Autor: Matija Sović</p>
+        <p>Projekt izrađen za kolokvij web programiranja</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
